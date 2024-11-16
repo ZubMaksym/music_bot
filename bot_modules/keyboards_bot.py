@@ -8,3 +8,10 @@ main_keyboard = aiogram.types.ReplyKeyboardMarkup(
         [hard_level_button]
     ]
 )
+
+choose_option_keyboard = aiogram.types.ReplyKeyboardMarkup(
+    keyboard= [
+        [help_button],
+        [go_to_message],
+    ]
+)
